@@ -42,7 +42,7 @@ function CreateArea(props) {
         />:null}
         <textarea
           name="content"
-          onClick={()=>{setClicked(!clicked)}}
+          onClick={()=>{setClicked(true)}}
           onChange={handleChange}
           value={note.content}
           placeholder="Take a note..."
